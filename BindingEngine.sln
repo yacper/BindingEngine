@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30723.0
@@ -7,11 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingEngine.Sample", "Bin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingEngine", "BindingEngine\BindingEngine.csproj", "{CC47D418-6BC6-4989-B7D6-2B2EA3B1ECB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingEngine.Test", "BindingEngine.Test\BindingEngine.Test.csproj", "{434285A8-855A-4C58-9C27-32231D65C4CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BindingEngine.Test", "BindingEngine.Test\BindingEngine.Test.csproj", "{434285A8-855A-4C58-9C27-32231D65C4CF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingEngine.Benchmark", "BindingEngine.Benchmark\BindingEngine.Benchmark.csproj", "{6641BEB9-B9C0-4827-A588-210AB84D8A0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingEngine.Emit", "BindingEngine.Emit\BindingEngine.Emit.csproj", "{326BAB8B-7407-4B54-815C-EA50754CC978}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BindingEngine.Emit", "BindingEngine.Emit\BindingEngine.Emit.csproj", "{326BAB8B-7407-4B54-815C-EA50754CC978}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
