@@ -80,7 +80,8 @@ namespace BindingEngine.Test.Bindings
 
 
             Assert.AreNotEqual(view.Text1, Name2);
-            Assert.AreNotEqual(view.ValueInt, Name2);
+            // 新版没有object参数了
+            //Assert.AreNotEqual(view.ValueInt, Name2);
         }
     }
 }

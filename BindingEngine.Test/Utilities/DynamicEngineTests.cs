@@ -6,7 +6,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace BindingEngine.Test.Internals
 {
-    using BindingEngine.Test.Annotations;
+    //using BindingEngine.Test.Annotations;
 
     [TestClass]
     public class DynamicEngineTests
@@ -270,7 +270,7 @@ namespace BindingEngine.Test.Internals
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-        [NotifyPropertyChangedInvocator]
+        //[NotifyPropertyChangedInvocator]
         protected virtual void OnPropertyChanged(string propertyName)
         {
             var handler = PropertyChanged;

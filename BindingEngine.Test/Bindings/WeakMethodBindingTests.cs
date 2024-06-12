@@ -1,7 +1,6 @@
-﻿using System;
-using System.Windows.Forms;
-using BindingEngine.Test.Helpers;
+﻿using BindingEngine.Test.Helpers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Illusion.Utility;
 
 
 namespace Illusion.Utility.Tests
