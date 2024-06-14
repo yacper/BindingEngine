@@ -14,7 +14,7 @@ namespace BindingEngine.Test.Helpers
         private int _age;
         private string _name;
         private ICommand _setAgeCommand;
-        private TestViewModel2 _testViewModel2;
+        private TestViewModel2 _testViewModel2 = new();
         private ObservableCollection<TestViewModel2> _testViewModelCollection;
 
         public int Age

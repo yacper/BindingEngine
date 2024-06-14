@@ -29,8 +29,23 @@ namespace Illusion.Utility.Tests
                 .SetMode(BindMode.OneWay);
             viewModel.Name = Name1;
 
-            Assert.AreEqual(view.Text1, Name1);
+            Assert.AreEqual(view.TestView2.Text1, Name1);
         }
+        [TestMethod]
+        // 测试expression
+        public void Test_WeakPropertyBinding_Expression()
+        {
+            var viewModel = new TestViewModel();
+            var view = new TestView();
+
+            BindingEngine.SetPropertyBinding(view, v => v.TestView2.Text1, viewModel, vm => vm.TestViewModel2.Name);
+
+            viewModel.TestViewModel2.Name = Name1;
+
+            Assert.AreEqual(view.TestView2.Text1, Name1);
+        }
+
+
 
         [TestMethod]
         public void Test_WeakPropertyBinding_OneTime()

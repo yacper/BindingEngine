@@ -3,6 +3,13 @@ using System.Collections.Generic;
 
 namespace BindingEngine.Test.Helpers
 {
+
+public class TestView2
+{
+        public string Text1 { get; set; }
+        public string Text2 { get; set; }
+ 
+}
     public class TestView
     {
         public string Text1 { get; set; }
@@ -11,6 +18,8 @@ namespace BindingEngine.Test.Helpers
         public float ValueFloat { get; set; }
         public double ValueDouble { get; set; }
         public int EventCount { get; set; }
+
+        public TestView2 TestView2 { get; set; } = new TestView2();
 
 
         public IList<string> CollectionNames { get; set; }
