@@ -178,7 +178,7 @@ namespace Illusion.Utility
         #region Public Methods and Operators
 
         /// <summary>
-        ///     The first right.
+        ///     The first right. 取遇到的第一个content后的，右边的字符串, 例 "abcde".FirstRight("c") 返回 "de"
         /// </summary>
         /// <param name="str">
         ///     The string.

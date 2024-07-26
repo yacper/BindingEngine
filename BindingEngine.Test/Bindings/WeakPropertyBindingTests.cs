@@ -38,7 +38,9 @@ namespace Illusion.Utility.Tests
             var viewModel = new TestViewModel();
             var view = new TestView();
 
-            BindingEngine.SetPropertyBinding(view, v => v.TestView2.Text1, viewModel, vm => vm.TestViewModel2.Name);
+            var binding = BindingEngine.SetPropertyBinding(view, v => v.TestView2.Text1, viewModel, vm => vm.TestViewModel2.Name);
+            //BindingEngine.ClearBinding(view);
+            //BindingEngine.ClearBinding(view, v => v.TestView2.Text1, viewModel, vm => vm.TestViewModel2.Name);
 
             viewModel.TestViewModel2.Name = Name1;
 
